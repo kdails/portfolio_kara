@@ -33,14 +33,14 @@ h3 a:hover {text-decoration: none;}
 }
 .nav>li>a:focus,
 .nav>li>a:hover {
-  color: #4D9CA3;
+  color: #027984;
   background-color:#FFFFF3;
 }
-.navbar-brand {background-color:#4D9CA3;color:#FFFFF3;height:}
+.navbar-brand {background-color:#027984;color:#FFFFF3;height:}
 .navbar-brand:hover {color:#1F2124;}
 .navbar-brand:focus {color:#FFFFF3;}
 li.active a {
-  color: #4D9CA3;
+  color: #027984;
   background-color:#FFFFF3;
 }
 .navbar-toggle .icon-bar {background-color:#FFFFF3;}
