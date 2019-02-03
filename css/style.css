@@ -1,0 +1,112 @@
+body {
+  font-family: Karla;
+  color: #404146;
+  background-color: #FFFFFF;
+  margin: 0 20px;
+}
+
+h3 {margin: 30px 0;}
+h3 a{color: #4D9CA3;}
+h3 a:hover {text-decoration: none;}
+.navbar {
+  position: fixed;
+  display: block;
+  right:60px;
+  left:60px;
+  top: 20px;
+  z-index: 2;
+  background-color: #E0E3DA;
+  font-weight: bold;
+  border:none;
+  border-radius:0;
+  opacity:1.0;
+  font-size: 14px;
+}
+.spacing {height:50px;}
+.row {
+  padding-top: 70px;
+
+}
+
+.nav li a {
+  color: #404146;
+}
+.nav>li>a:focus,
+.nav>li>a:hover {
+  color: #4D9CA3;
+  background-color:#FFFFF3;
+}
+.navbar-brand {background-color:#4D9CA3;color:#FFFFF3;height:}
+.navbar-brand:hover {color:#1F2124;}
+.navbar-brand:focus {color:#FFFFF3;}
+li.active a {
+  color: #4D9CA3;
+  background-color:#FFFFF3;
+}
+.navbar-toggle .icon-bar {background-color:#FFFFF3;}
+.navbar-toggle {background-color: #4D9CA3; border-radius: 1px;}
+h3 {
+  font-weight: bold;
+  color: #4D9CA3;
+  margin-top:0;
+}
+
+.circle {
+  border-radius: 100%;
+  border: 3px solid #4D9CA3;
+
+}
+.titles {margin-bottom:30px;}
+.titles h2 {padding:10px; text-decoration: underline;letter-spacing:2px;}
+.about-me {
+  font-size: 18px;
+}
+.col-md-6 h4 {line-height:2.0}
+.spacer {
+  margin: 3;
+}
+
+
+
+.social {margin:50px;border-radius: 0; width:80%;}
+.social a{color:#FFFFF3; text-decoration: none;}
+.social a:hover{color: #4D9CA3;}
+blockquote {border-color:#FFFFFF; color: #4D9CA3; font-size:16px;}
+blockquote p{font-size: 20px; font-weight:bold; }
+.copyright a{color: #4D9CA3; font-weight: bold;}
+i {color: #E53A40;}
+a:hover {color: #1F2124;}
+.go-top {
+  position: fixed;
+  font-size: 14px;
+  right: 20px;
+  bottom: 20px;
+  border: 1px solid #1F2124;
+  border-radius: 5%;
+  text-align:center;
+  width:24px;
+  height:24px;
+}
+@media(max-width : 600px)
+{
+
+  h3 {
+    margin-top: 50px;
+    text-align: center;;
+  }
+  .row {
+    padding-top:60px;
+  }
+  .spacing {
+    height: 20px;
+  }
+  .social {
+    margin:20px;
+  }
+  .navbar {
+    left:20px;
+    right:20px;
+  }
+  footer {
+    padding-bottom: 20px;
+  }
