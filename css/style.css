@@ -1,3 +1,11 @@
+header{
+  font-family: Karla;
+  color: #404146;
+  ackground-color: #FFFFFF;
+  margin: 0 20px;
+  font-size: 30px;
+}
+
 body {
   font-family: Karla;
   color: #404146;
@@ -26,6 +34,12 @@ h3 a:hover {text-decoration: none;}
 .row {
   padding-top: 70px;
 
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .nav li a {
@@ -97,15 +111,15 @@ a:hover {color: #1F2124;}
         text-align: left;
         overflow: hidden;
     }
-    
-    a.skip:active, 
-    a.skip:focus, 
+
+    a.skip:active,
+    a.skip:focus,
     a.skip:hover {
-        left: 0; 
+        left: 0;
         top: 0;
-        width: auto; 
-        height: auto; 
-        overflow: visible; 
+        width: auto;
+        height: auto;
+        overflow: visible;
     }
 @media(max-width : 600px)
 {
